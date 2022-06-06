@@ -1,0 +1,53 @@
+/* Fill CSS here */
+
+body>h1{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(132,162,197);
+}
+
+div{
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-columns:30% 68%;
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+div>form{
+ 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 20px;
+}
+div>table{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+form>input{
+    padding: 10px 100px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0; 
+}
+select{
+    padding: 10px 105px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0;    
+}
+tr>th{
+    border: 1px solid;
+    color: whitesmoke;
+    background-color: blue;
+}
+tr>td{
+    border: 1px solid;
+    color: whitesmoke;
+    background-color: blue;
+    text-align: center;
+}
+form>input:last-child{
+    padding: 10px 148px; ;
+}
+
+
